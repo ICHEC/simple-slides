@@ -117,6 +117,9 @@ _(Experimental: may require additional setup.)_
 
 Contributions and suggestions are welcome! Open an issue or PR if you’d like to add features, fix bugs, or improve documentation.
 
+## Feedback
+
+Please reach out for any feedback.
 
 ## 🔗 Credits
 
