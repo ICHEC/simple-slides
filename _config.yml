@@ -1,6 +1,6 @@
 title: "Lecture Slides"
-url:     "https://rajarshitiwari.github.io"  # set your site URL if publishing
-baseurl: "/slides"                           # if deploying to subdir, put it here, e.g. "/myslides"
+url:     "https://ichec.github.io"  # set your site URL if publishing
+baseurl: "/simple-slides"           # if deploying to subdir, put it here, e.g. "/myslides"
 
 
 # Markdown + kramdown with MathJax
