@@ -14,7 +14,6 @@ _ICHEC Quantum Team_ : qmechanics@groups.ichec.ie
 
 
 
-
 ---
 
 <!-- .slide: data-transition="zoom"-->
