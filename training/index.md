@@ -13,7 +13,6 @@ title: Quantum-HPC Training
 _ICHEC Quantum Team_ : qmechanics@groups.ichec.ie
 
 
-
 ---
 
 <!-- .slide: data-transition="zoom"-->
