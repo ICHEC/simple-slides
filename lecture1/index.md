@@ -103,13 +103,13 @@ print(quantum_state(1))
 </div>
 
 ---
+## Mermaid graph
 
-```mermaid
+<div class="mermaid">
+graph LR
+  A ---> B & C ----> D & E & F ---> G ---> Z
+</div>
 
-graph TD
-
-A-->B
-```
 ---
 
 # Thank you!

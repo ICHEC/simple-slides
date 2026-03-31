@@ -15,103 +15,150 @@ _ICHEC Quantum Team_ : qmechanics@groups.ichec.ie
 
 ---
 
-<!-- .slide: data-transition="zoom"-->
-## Slide 1: Linear Algebra
-- Vector independence <!-- .element: class="fragment"-->
-- Span and dimension <!-- .element: class="fragment"-->
-- Equation: $a \mathbf{v}_1 + b \mathbf{v}_2 = 0$ <!-- .element: class="fragment"-->
+## List of activities
 
-$$
-\sqrt{\pi} = \int_{-\infty}^{\infty} e^{-x^2} dx
-$$
-<!-- .element: class="fragment"-->
+<div style="display: flex; gap 10px;">
+<div style="flex: 1; border: solid 1px;">
 
-$$
-\sqrt{\pi} = \int_{-\infty}^{\infty} e^{-x^2} dx
-$$
-<!-- .element: class="fragment"-->
+**Software**
+
+- Code development 
+
+- Use-Case, application development
+
+</div>
+<div style="flex: 1; border: solid 1px;">
+
+**Training**
+
+- Training material
+
+- Code documentation
+
+</div>
+</div>
+
 
 ---
 
-## Columns
+## Software
 
-<div style="display: flex; gap 20px;">
+### Python package
+
+- Our current footprint in terms of language is python.
+
+- Though in future we will look into `C/C++` for efficiency.
+
+
+
+<div style="display: flex; gap 10px;">
 <div style="flex: 1;">
 
-**Left column**
+- Repository at Github
 
-- Point A
-- Point B
+- Coordination through issue based branches.
+
+- Some standard practices on working on repositories.
+
+- QSVM4EO is moved to ICHEC's gitlab.
+
+- QCHEM doesn't have currently a plan for near future.
+
 
 </div>
 <div style="flex: 1;">
 
-**Right column**
-$$
-H = \sum_{ij} t_{ij} c_i^\dagger c_j + \text{h.c.}
-$$
+|Package| URL |
+|--- | --- |
+| QSE | [github.com/ICHEC/qse](https://github.com/ICHEC/qse)            |
+| QSVM4EO | [github.com/ICHEC/qsvm4eo](https://github.com/ICHEC/qsvm4eo)|
+| QCHECM  | [github.com/ICHEC/qchem](https://github.com/ICHEC/qchem)    |
+
+</div>
+</div>
+
+
+---
+
+
+## Training
+
+### Blended learning courses.
+
+- Our training materials spans three types of content.
+
+- Lecture Videos: PPT presentations, and recordings.
+
+- Lecture Notes : Jupyterbook based repositories.
+
+- Assessment material: Jupyter notebooks.
+
+- Lecture videos and assessment material is private, held in gitlab, and sharepoint.
+
+- Lecture notes are public.
+
+---
+
+
+### Repositories
+
+<div style="display: flex; gap 10px;">
+<div style="flex: 1;">
+
+- QPCC repository contains the lecture notes for quantum programming foundation course
+
+- QTRAIN was used to deliver a workshop
+
+- PYQM provides a server free jupyter notebook interface.
+
+</div>
+
+<div style="flex: 1;">
+
+<table>
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>QPCC</td>
+      <td><a href="https://github.com/ICHEC/qpcc">github.com/ICHEC/qpcc</a></td>
+    </tr>
+    <tr>
+      <td>QPCC</td>
+      <td><a href="https://github.com/ICHEC/qpcc-tm">github.com/ICHEC/qpcc-tm</a></td>
+    </tr>
+    <tr>
+      <td>QTRAIN</td>
+      <td><a href="https://github.com/ICHEC/Qtrain">github.com/ICHEC/Qtrain</a></td>
+    </tr>
+    <tr>
+      <td>PYQM</td>
+      <td><a href="https://github.com/ICHEC/pyqm">github.com/ICHEC/pyqm</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 </div>
 </div>
 
 ---
 
-## Slide 2: Quantum Mechanics
-Hilbert space grows as $2^n$ with number of qubits $n$.
+|Project  | URL            |
+|-------- |--------------  |
+| QPCC    | [github.com/ICHEC/qpcc](https://github.com/ICHEC/qpcc)       |
+| QPCC    | [github.com/ICHEC/qpcc-tm](https://github.com/ICHEC/qpcc-tm) |
+| QTRAIN  | [github.com/ICHEC/Qtrain](https://github.com/ICHEC/Qtrain)   |
+| PYQM    | [github.com/ICHEC/pyqm](https://github.com/ICHEC/pyqm)       |
+| SLIDES  | [github.com/ICHEC/simple-slides](https://github.com/ICHEC/simple-slides)|
 
----
 
-## Slide 3: Greek Letters
-$\alpha x^2 + \beta y^2 = \gamma z^2$
 
----
-
-<!-- .two-column -->
-## Slide 4: Code Highlighting
-
-```python [1-2|4]
-def quantum_state(n):
-    # wavefunction
-    return f"Ψ_{n}"
-
-print(quantum_state(1))
-```
-
----
-
-- 👉 Each `---` = new slide.
-
-- 👉 Each `--` = vertical sub-slide under same topic.
-  - Think of it as **2D** navigation through slides.
-
-- 👉 Inline LaTeX with `$...$` and block math with `$$...$$`.
-
----
-
-# Example with CSS columns
-
-<div class="cols">
-  <div class="col">
-    <h3>Left</h3>
-    <ul>
-      <li>Point A</li>
-      <li>Point B</li>
-    </ul>
-  </div>
-  <div class="col">
-    <h3>Right</h3>
-    <p>Diagram:</p>
-    <img src="diagram.png" style="max-width:100%">
-  </div>
-</div>
-
----
-
-```mermaid
-
-graph TD
-
-A-->B
-```
 ---
 
 # Thank you!

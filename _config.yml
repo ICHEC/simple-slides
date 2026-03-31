@@ -32,6 +32,7 @@ collections:
 
 # Plugins (if you want extras, safe for GitHub Pages)
 #plugins:
+#  - jekyll-mermaid
 #  - jekyll-feed
 #  - jekyll-seo-tag
 

@@ -44,10 +44,27 @@ layout: nil
   <script src="{{ 'assets/reveal/plugin/audio-slideshow/recorder.js' | relative_url }}"></script>
 
   <!-- Mermaid plugin <script src="{{ 'assets/reveal/plugin/mermaid/mermaid.js' | relative_url }}"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 
-   
+
   <script>
-    Reveal.initialize({
+
+  mermaid.initialize({
+    startOnLoad: false,   // IMPORTANT: Reveal controls rendering
+    theme: "default"
+  });
+
+  function renderMermaid() {
+    document.querySelectorAll('.mermaid').forEach((el) => {
+      try {
+        mermaid.init(undefined, el);
+      } catch (e) {
+        console.warn("Mermaid render error:", e);
+      }
+    });
+  }
+    
+  Reveal.initialize({
       hash: true,
       plugins: [
         RevealMarkdown,
@@ -72,9 +89,13 @@ layout: nil
           loop: false,
         }
       },
-      transition: "zoom",
+      transition: "fade",
       navigationMode: "default"
     });
+
+  Reveal.on('ready', renderMermaid);
+  Reveal.on('slidechanged', renderMermaid);
+  Reveal.on('fragmentshown', renderMermaid);
   </script>
 </body>
 </html>
